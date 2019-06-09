@@ -39,7 +39,6 @@ public class MusicControlEventEmitter {
     }
 
     public void onPause() {
-        stopForegroundService();
         sendEvent(context, "pause", null);
     }
 
